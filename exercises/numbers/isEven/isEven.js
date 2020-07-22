@@ -18,7 +18,7 @@ function isEven(num) {
   // The _____ is meant to be "fill in the blank"
   // Look at isZero and compare; what makes sense here?
 
-  return _____;
+
 }
 
 if (require.main === module) {
