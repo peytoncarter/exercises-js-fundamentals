@@ -8,7 +8,8 @@ function isNegative(num) {
   // The _____ is meant to be "fill in the blank"
   // Look at isZero and compare; what makes sense here?
 
-  return _____;
+//nothing changes whether or not there is a ____ or num < 0, after return
+  return num < 0;
 }
 
 if (require.main === module) {

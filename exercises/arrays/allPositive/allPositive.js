@@ -28,10 +28,10 @@ notPositiveNums = false;
 function allPositive(array) {
   if (positiveNums) {
 
-    console.log ('these are all positive: ${positiveNums} ');
+    console.log ('these are all positive: ${positiveNums}');
 
   } else {
-    console.log('these numbers are not all positive: ${positiveNums}');
+    console.log('these numbers are not all positive: ${notPositiveNums}');
   }
   // This is your job. :)
 }
