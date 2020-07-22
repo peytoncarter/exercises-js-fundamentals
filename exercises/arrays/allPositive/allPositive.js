@@ -12,19 +12,26 @@
  *   and false otherwise.
  */
 
-let positiveNums = [2, 26, 73,99, -24, -13];
-console.log(positiveNums);
 
-// positiveNums = true;
+
+let positiveNums =[2, 26, 73, 99];
+
+let notPositiveNums = [2, 26, 73,99, -24, -13];
+
+console.log(positiveNums);
+console.log(notPositiveNums);
+
+positiveNums = true;
+notPositiveNums = false;
 
 
 function allPositive(array) {
-  if (positiveNums > 0) {
+  if (positiveNums) {
 
-    console.log ('these are all positive: ${positiveNums}');
+    console.log ('these are all positive: ${positiveNums} ');
 
   } else {
-    console.log('these numbers are not positive');
+    console.log('these numbers are not all positive: ${positiveNums}');
   }
   // This is your job. :)
 }
