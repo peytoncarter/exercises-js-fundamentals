@@ -11,7 +11,21 @@
  * @returns {boolean} True if every number in the input array is positive
  *   and false otherwise.
  */
+
+let positiveNums = [2, 26, 73,99, -24, -13];
+console.log(positiveNums);
+
+// positiveNums = true;
+
+
 function allPositive(array) {
+  if (positiveNums > 0) {
+
+    console.log ('these are all positive: ${positiveNums}');
+
+  } else {
+    console.log('these numbers are not positive');
+  }
   // This is your job. :)
 }
 
