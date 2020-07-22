@@ -23,12 +23,12 @@
 
 function countLetter(string, letter) {
   // This is your job. :)
+  let string = 'peyton';
 
-  'peyton'.charAt(2)
-  // let stringLength = 'peyton';
-  // stringLength[2];
-  console.log('this is the third letter in my name:');
- }
+  for(letter of string); {
+  console.log('this is the third letter in my name' (letter));
+ };
+}
 
 if (require.main === module) {
   console.log('Running sanity checks for countLetter:');
